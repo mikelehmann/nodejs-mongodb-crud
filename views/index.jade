@@ -6,7 +6,7 @@ block content
             h1 <strong>Node.js + MongoDB app</strong>
         #employees
             h2= title
-            - each employee in employees
+            - each employee in employee
               div(class="panel panel-primary")
                 div.created_at(class="hidden")= employee.created_at
                 div.panel-heading
